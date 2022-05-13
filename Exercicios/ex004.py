@@ -1,0 +1,6 @@
+var = input('Digite algo: ')
+print(var)
+print(type(var))
+print('É um numero?', var.isnumeric())
+print('É um alfabeto? ', var.isalpha())
+print('Esta em maiuscula? ', var.isupper())
